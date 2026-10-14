@@ -13,9 +13,9 @@
   */
 typedef enum
 {
-	N_Trig = 0, 																				/*!< 0 空 */		
-	L_Trig ,																						/*!< 1 低电平触发 */			
-	H_Trig,																							/*!< 2 高电平触发 */
+	N_Trig = 0,	/*!< 0 空 */
+	L_Trig ,	/*!< 1 低电平触发 */
+	H_Trig,		/*!< 2 高电平触发 */
 }Trig_Mode_TypeDef;
 
 /** 
@@ -23,10 +23,10 @@ typedef enum
   */
 typedef enum
 {
-	N_Click = 0,																				/*!< 0 空 */	
-	S_Click ,																						/*!< 1 单击 */			
-	D_Click,																						/*!< 2 双击 */
-	L_Press,																						/*!< 3 长按 */
+	N_Click = 0,	/*!< 0 空 */
+	S_Click ,		/*!< 1 单击 */
+	D_Click,		/*!< 2 双击 */
+	L_Press,		/*!< 3 长按 */
 }Key_Mode_TypeDef;
 
 
